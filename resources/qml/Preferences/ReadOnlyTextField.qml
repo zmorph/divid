@@ -36,6 +36,7 @@ Item
         style: TextFieldStyle {
             selectionColor: UM.Theme.getColor("zmorph_grey")
             selectedTextColor: "white"
+            textColor: base.readOnly ? "transparent" : UM.Theme.getColor("zmorph_grey")
             background: Rectangle {
                 color: "white"
                 border.color: UM.Theme.getColor("secondary_button_shadow")
@@ -53,7 +54,6 @@ Item
         anchors.leftMargin: textField.__panel ? textField.__panel.leftMargin : 0
 
         font: UM.Theme.getFont("default")
-        color: palette.buttonText
     }
 
     SystemPalette { id: palette }

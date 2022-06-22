@@ -39,7 +39,7 @@ Column
             id: byLineType
 
             property var printDuration: PrintInformation.currentPrintTime
-            property var columnWidthMultipliers: [ 0.45, 0.3, 0.25 ]
+            property var columnWidthMultipliers: [ 0.47, 0.3, 0.23 ]
             property var columnHorizontalAligns: [ Text.AlignLeft, Text.AlignHCenter, Text.AlignRight ]
 
             function getMaterialTable()
@@ -125,7 +125,7 @@ Column
             property var printMaterialWeights: PrintInformation.materialWeights
             property var printMaterialCosts: PrintInformation.materialCosts
             property var printMaterialNames: PrintInformation.materialNames
-            property var columnWidthMultipliers: [ 0.46, 0.18, 0.18, 0.18 ]
+            property var columnWidthMultipliers: [ 0.3, 0.27, 0.23, 0.20 ]
             property var columnHorizontalAligns: [ Text.AlignLeft, Text.AlignHCenter, Text.AlignHCenter, Text.AlignRight ]
 
             function getMaterialTable()
