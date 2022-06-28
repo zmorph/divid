@@ -216,7 +216,7 @@
         "primary": "accent_2",
         "primary_hover": [48, 182, 231, 255],
         "primary_text": [255, 255, 255, 255],
-        "text_selection": [156, 195, 255, 127],
+        "text_selection": [32, 45, 53, 127],
         "border": [127, 127, 127, 255],
         "border_field": [180, 180, 180, 255],
         "secondary": [240, 240, 240, 255],

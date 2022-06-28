@@ -53,7 +53,7 @@ Item
             id: titleLabel
             anchors.horizontalCenter: parent.horizontalCenter
             horizontalAlignment: Text.AlignHCenter
-            text: catalog.i18nc("@label", "Welcome to Ultimaker Cura")
+            text: catalog.i18nc("@label", "Welcome to Zmorph Divid")
             color: UM.Theme.getColor("primary")
             font: UM.Theme.getFont("huge_bold")
         }
@@ -64,7 +64,7 @@ Item
             anchors.horizontalCenter: parent.horizontalCenter
             horizontalAlignment: Text.AlignHCenter
             width: titleLabel.width + 2 * UM.Theme.getSize("thick_margin").width
-            text: catalog.i18nc("@text", "Please follow these steps to set up Ultimaker Cura. This will only take a few moments.")
+            text: catalog.i18nc("@text", "Please follow these steps to set up Zmorph Divid. This will only take a few moments.")
             font: UM.Theme.getFont("medium")
         }
 
