@@ -113,10 +113,10 @@ Cura.Menu
         action: Cura.Actions.manageMaterials
     }
 
-    Cura.MenuSeparator {}
+    // Cura.MenuSeparator {}
 
-    Cura.MenuItem
-    {
-        action: Cura.Actions.marketplaceMaterials
-    }
+    // Cura.MenuItem
+    // {
+    //     action: Cura.Actions.marketplaceMaterials
+    // }
 }

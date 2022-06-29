@@ -70,7 +70,7 @@ UM.Dialog
 
         //: About dialog application description
         text: catalog.i18nc("@label","End-to-end solution for fused filament 3D printing.")
-        font: UM.Theme.getFont("system")
+        font: UM.Theme.getFont("default")
         wrapMode: Text.WordWrap
         anchors.top: header.bottom
         anchors.topMargin: UM.Theme.getSize("default_margin").height
@@ -83,7 +83,7 @@ UM.Dialog
 
         //: About dialog application author note
         text: catalog.i18nc("@info:credit","Cura is developed by Ultimaker B.V. in cooperation with the community.\nCura proudly uses the following open source projects:")
-        font: UM.Theme.getFont("system")
+        font: UM.Theme.getFont("default")
         wrapMode: Text.WordWrap
         anchors.top: description.bottom
         anchors.topMargin: UM.Theme.getSize("default_margin").height

@@ -25,7 +25,7 @@ class UltimakerNetworkedPrinterAction(MachineAction):
     discoveredDevicesChanged = pyqtSignal()
 
     def __init__(self) -> None:
-        super().__init__("DiscoverUM3Action", I18N_CATALOG.i18nc("@action", "Connect via Network"))
+        # super().__init__("DiscoverUM3Action", I18N_CATALOG.i18nc("@action", "Connect via Network"))
         self._qml_url = "resources/qml/DiscoverUM3Action.qml"
         self._network_plugin = None  # type: Optional[UM3OutputDevicePlugin]
 

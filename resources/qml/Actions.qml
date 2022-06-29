@@ -53,7 +53,7 @@ Item
     property alias manageProfiles: manageProfilesAction
 
     property alias manageMaterials: manageMaterialsAction
-    property alias marketplaceMaterials: marketplaceMaterialsAction
+    // property alias marketplaceMaterials: marketplaceMaterialsAction
 
     property alias preferences: preferencesAction
 

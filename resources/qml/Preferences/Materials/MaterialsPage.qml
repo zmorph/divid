@@ -95,17 +95,18 @@ UM.ManagementPage
             }
             enabled: Cura.MachineManager.activeMachine.hasMaterials
         },
-        Cura.SecondaryButton
-        {
-            id: syncMaterialsButton
-            text: catalog.i18nc("@action:button", "Sync with Printers")
-            onClicked:
-            {
-                forceActiveFocus();
-                base.materialManagementModel.openSyncAllWindow();
-            }
-            visible: Cura.MachineManager.activeMachine.supportsMaterialExport
-        }
+
+        // Cura.SecondaryButton
+        // {
+        //     id: syncMaterialsButton
+        //     text: catalog.i18nc("@action:button", "Sync with Printers")
+        //     onClicked:
+        //     {
+        //         forceActiveFocus();
+        //         base.materialManagementModel.openSyncAllWindow();
+        //     }
+        //     visible: Cura.MachineManager.activeMachine.supportsMaterialExport
+        // }
     ]
 
     onHamburgeButtonClicked: {
