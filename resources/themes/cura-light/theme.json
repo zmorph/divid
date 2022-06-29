@@ -352,7 +352,7 @@
 
         "radio": "background_1",
         "radio_disabled": "background_2",
-        "radio_selected": "accent_1",
+        "radio_selected": "accent_2",
         "radio_selected_disabled": "text_disabled",
         "radio_border": [180, 180, 180, 255],
         "radio_border_hover": "border_main",
