@@ -185,7 +185,7 @@ Item
         //For more information, see:
         //- https://doc.qt.io/qt-5/macos-issues.html#menu-bar
         //- https://doc.qt.io/qt-5/qmenubar.html#qmenubar-as-a-global-menu-bar
-        text: (Qt.platform.os == "osx") ? "Configure Cura..." : catalog.i18nc("@action:inmenu", "Configure Cura...")
+        text: (Qt.platform.os == "osx") ? "Configure Divid..." : catalog.i18nc("@action:inmenu", "Configure Divid...")
         icon.name: "configure"
     }
 
@@ -210,11 +210,11 @@ Item
         shortcut: "Ctrl+K"
     }
 
-    Action
-    {
-        id: marketplaceMaterialsAction
-        text: catalog.i18nc("@action:inmenu Marketplace is a brand name of Ultimaker's, so don't translate.", "Add more materials from Marketplace")
-    }
+    // Action
+    // {
+    //     id: marketplaceMaterialsAction
+    //     text: catalog.i18nc("@action:inmenu Marketplace is a brand name of Ultimaker's, so don't translate.", "Add more materials from Marketplace")
+    // }
 
     Action
     {
