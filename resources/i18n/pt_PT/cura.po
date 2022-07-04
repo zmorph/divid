@@ -5222,8 +5222,8 @@ msgstr "Pretende que os ficheiros abertos a partir do ambiente de trabalho ou de
 
 #: /home/remco/dev/code/ulti/trans/Cura/resources/qml/Preferences/GeneralPage.qml:607
 msgctxt "@option:check"
-msgid "Use a single instance of Cura"
-msgstr "Utilizar uma única instância do Cura"
+msgid "Use a single instance of Divid"
+msgstr "Utilizar uma única instância do Divid"
 
 #: /home/remco/dev/code/ulti/trans/Cura/resources/qml/Preferences/GeneralPage.qml:618
 msgctxt "@info:tooltip"

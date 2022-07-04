@@ -5210,8 +5210,8 @@ msgstr "Masaüstünden veya harici uygulamalardan açılan dosyalar aynı Cura �
 
 #: /home/remco/dev/code/ulti/trans/Cura/resources/qml/Preferences/GeneralPage.qml:607
 msgctxt "@option:check"
-msgid "Use a single instance of Cura"
-msgstr "Tek bir Cura örneği kullan"
+msgid "Use a single instance of Divid"
+msgstr "Tek bir Divid örneği kullan"
 
 #: /home/remco/dev/code/ulti/trans/Cura/resources/qml/Preferences/GeneralPage.qml:618
 msgctxt "@info:tooltip"

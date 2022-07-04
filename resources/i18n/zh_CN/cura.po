@@ -5171,8 +5171,8 @@ msgstr "应从桌面打开文件还是在同一 Cura 实例中打开外部应用
 
 #: /home/remco/dev/code/ulti/trans/Cura/resources/qml/Preferences/GeneralPage.qml:607
 msgctxt "@option:check"
-msgid "Use a single instance of Cura"
-msgstr "使用单个 Cura 实例"
+msgid "Use a single instance of Divid"
+msgstr "使用单个 Divid 实例"
 
 #: /home/remco/dev/code/ulti/trans/Cura/resources/qml/Preferences/GeneralPage.qml:618
 msgctxt "@info:tooltip"

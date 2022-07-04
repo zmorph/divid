@@ -4994,8 +4994,8 @@ msgstr "從桌面或外部程式開啟檔案時，使用同一 Cura 視窗嗎？
 
 #: /home/remco/dev/code/ulti/trans/Cura/resources/qml/Preferences/GeneralPage.qml:607
 msgctxt "@option:check"
-msgid "Use a single instance of Cura"
-msgstr "使用同一 Cura 視窗"
+msgid "Use a single instance of Divid"
+msgstr "使用同一 Divid 視窗"
 
 #: /home/remco/dev/code/ulti/trans/Cura/resources/qml/Preferences/GeneralPage.qml:618
 msgctxt "@info:tooltip"

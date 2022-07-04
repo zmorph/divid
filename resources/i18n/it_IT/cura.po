@@ -5218,8 +5218,8 @@ msgstr "L'apertura dei file dal desktop o da applicazioni esterne deve essere es
 
 #: /home/remco/dev/code/ulti/trans/Cura/resources/qml/Preferences/GeneralPage.qml:607
 msgctxt "@option:check"
-msgid "Use a single instance of Cura"
-msgstr "Utilizzare una singola istanza di Cura"
+msgid "Use a single instance of Divid"
+msgstr "Utilizzare una singola istanza di Divid"
 
 #: /home/remco/dev/code/ulti/trans/Cura/resources/qml/Preferences/GeneralPage.qml:618
 msgctxt "@info:tooltip"

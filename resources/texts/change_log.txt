@@ -1,5 +1,2 @@
 [2.0]
 Divid 2.0 was built on Ultimaker Cura 5.0.
-
-[1.0]
-Divid 1.0 was built on Ultimaker Cura 4.13.1.

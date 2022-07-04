@@ -7,6 +7,8 @@ cmake_minimum_required(VERSION 3.18)
 include(GNUInstallDirs)
 
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)
+include(GetFromEnvironmentOrCache)
+
 
 set(URANIUM_DIR "${CMAKE_SOURCE_DIR}/../Uranium" CACHE PATH "The location of the Uranium repository")
 set(URANIUM_SCRIPTS_DIR "${URANIUM_DIR}/scripts" CACHE PATH "The location of the scripts directory of the Uranium repository")
@@ -19,8 +21,17 @@ endif()
 option(GENERATE_TRANSLATIONS "Should the translations be generated?" ON)
 
 set(CURA_APP_NAME "divid" CACHE STRING "Short name of Cura, used for configuration folder")
-set(CURA_APP_DISPLAY_NAME "Zmorph Divid" CACHE STRING "Display name of Cura")
-set(CURA_VERSION "master" CACHE STRING "Version name of Cura")
+set(CURA_APP_DISPLAY_NAME_ZMORPH "Zmorph Divid" CACHE STRING "Display name of Cura")
+GetFromEnvironmentOrCache(
+        NAME
+            CURA_VERSION
+        DEFAULT
+            ${CURA_VERSION}
+        DESCRIPTION
+            "Cura Extra Version Information"
+        REQUIRED)
+set(CURA_APP_DISPLAY_NAME "${CURA_APP_DISPLAY_NAME_ZMORPH} ${CURA_VERSION}")
+#set(CURA_VERSION "master" CACHE STRING "Version name of Cura")
 set(CURA_BUILDTYPE "" CACHE STRING "Build type of Cura, eg. 'PPA'")
 set(CURA_CLOUD_API_ROOT "" CACHE STRING "Alternative Cura cloud API root")
 set(CURA_CLOUD_API_VERSION "" CACHE STRING "Alternative Cura cloud API version")

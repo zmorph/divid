@@ -5217,8 +5217,8 @@ msgstr "Sollten Dateien vom Desktop oder von externen Anwendungen in derselben I
 
 #: /home/remco/dev/code/ulti/trans/Cura/resources/qml/Preferences/GeneralPage.qml:607
 msgctxt "@option:check"
-msgid "Use a single instance of Cura"
-msgstr "Eine einzelne Instanz von Cura verwenden"
+msgid "Use a single instance of Divid"
+msgstr "Eine einzelne Instanz von Divid verwenden"
 
 #: /home/remco/dev/code/ulti/trans/Cura/resources/qml/Preferences/GeneralPage.qml:618
 msgctxt "@info:tooltip"

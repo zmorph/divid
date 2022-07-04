@@ -5222,8 +5222,8 @@ msgstr "L'ouverture de fichiers à partir du bureau ou d'applications externes d
 
 #: /home/remco/dev/code/ulti/trans/Cura/resources/qml/Preferences/GeneralPage.qml:607
 msgctxt "@option:check"
-msgid "Use a single instance of Cura"
-msgstr "Utiliser une seule instance de Cura"
+msgid "Use a single instance of Divid"
+msgstr "Utiliser une seule instance de Divid"
 
 #: /home/remco/dev/code/ulti/trans/Cura/resources/qml/Preferences/GeneralPage.qml:618
 msgctxt "@info:tooltip"

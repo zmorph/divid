@@ -268,48 +268,48 @@ UM.PreferencesPage
                     onTextChanged: UM.Preferences.setValue("cura/currency", text)
                 }
 
-                UM.Label
-                {
-                    id: themeLabel
-                    text: catalog.i18nc("@label: Please keep the asterix, it's to indicate that a restart is needed.", "Theme*:")
-                }
+                // UM.Label
+                // {
+                //     id: themeLabel
+                //     text: catalog.i18nc("@label: Please keep the asterix, it's to indicate that a restart is needed.", "Theme*:")
+                // }
 
-                ListModel
-                {
-                    id: themeList
+                // ListModel
+                // {
+                //     id: themeList
 
-                    Component.onCompleted: {
-                        var themes = UM.Theme.getThemes()
-                        for (var i = 0; i < themes.length; i++)
-                        {
-                            append({ text: themes[i].name.toString(), code: themes[i].id.toString() });
-                        }
-                    }
-                }
+                //     Component.onCompleted: {
+                //         var themes = UM.Theme.getThemes()
+                //         for (var i = 0; i < themes.length; i++)
+                //         {
+                //             append({ text: themes[i].name.toString(), code: themes[i].id.toString() });
+                //         }
+                //     }
+                // }
 
-                Cura.ComboBox
-                {
-                    id: themeComboBox
+                // Cura.ComboBox
+                // {
+                //     id: themeComboBox
 
-                    model: themeList
-                    textRole: "text"
-                    implicitWidth: UM.Theme.getSize("combobox").width
-                    height: currencyField.height
+                //     model: themeList
+                //     textRole: "text"
+                //     implicitWidth: UM.Theme.getSize("combobox").width
+                //     height: currencyField.height
 
-                    currentIndex:
-                    {
-                        var code = UM.Preferences.getValue("general/theme");
-                        for(var i = 0; i < themeList.count; ++i)
-                        {
-                            if(model.get(i).code == code)
-                            {
-                                return i
-                            }
-                        }
-                        return 0;
-                    }
-                    onActivated: UM.Preferences.setValue("general/theme", model.get(index).code)
-                }
+                //     currentIndex:
+                //     {
+                //         var code = UM.Preferences.getValue("general/theme");
+                //         for(var i = 0; i < themeList.count; ++i)
+                //         {
+                //             if(model.get(i).code == code)
+                //             {
+                //                 return i
+                //             }
+                //         }
+                //         return 0;
+                //     }
+                //     onActivated: UM.Preferences.setValue("general/theme", model.get(index).code)
+                // }
             }
 
             UM.TooltipArea
@@ -605,7 +605,7 @@ UM.PreferencesPage
                 UM.CheckBox
                 {
                     id: singleInstanceCheckbox
-                    text: catalog.i18nc("@option:check","Use a single instance of Cura")
+                    text: catalog.i18nc("@option:check","Use a single instance of Divid")
 
                     checked: boolCheck(UM.Preferences.getValue("cura/single_instance"))
                     onCheckedChanged: UM.Preferences.setValue("cura/single_instance", checked)

@@ -5218,8 +5218,8 @@ msgstr "Wilt u dat bestanden vanaf de desktop of externe toepassingen in dezelfd
 
 #: /home/remco/dev/code/ulti/trans/Cura/resources/qml/Preferences/GeneralPage.qml:607
 msgctxt "@option:check"
-msgid "Use a single instance of Cura"
-msgstr "Gebruik één instantie van Cura"
+msgid "Use a single instance of Divid"
+msgstr "Gebruik één instantie van Divid"
 
 #: /home/remco/dev/code/ulti/trans/Cura/resources/qml/Preferences/GeneralPage.qml:618
 msgctxt "@info:tooltip"

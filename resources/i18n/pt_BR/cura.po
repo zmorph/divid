@@ -4856,8 +4856,8 @@ msgstr "Arquivos da área de trabalho ou de aplicações externas devem ser aber
 
 #: /home/remco/dev/code/ulti/trans/Cura/resources/qml/Preferences/GeneralPage.qml:607
 msgctxt "@option:check"
-msgid "Use a single instance of Cura"
-msgstr "Usar uma única instância do Cura"
+msgid "Use a single instance of Divid"
+msgstr "Usar uma única instância do Divid"
 
 #: /home/remco/dev/code/ulti/trans/Cura/resources/qml/Preferences/GeneralPage.qml:618
 msgctxt "@info:tooltip"

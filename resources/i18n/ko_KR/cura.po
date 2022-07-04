@@ -5174,7 +5174,7 @@ msgstr "데스크톱 또는 외부 애플리케이션의 파일을 동일한 Cur
 
 #: /home/remco/dev/code/ulti/trans/Cura/resources/qml/Preferences/GeneralPage.qml:607
 msgctxt "@option:check"
-msgid "Use a single instance of Cura"
+msgid "Use a single instance of Divid"
 msgstr "Cura의 단일 인스턴스 사용"
 
 #: /home/remco/dev/code/ulti/trans/Cura/resources/qml/Preferences/GeneralPage.qml:618

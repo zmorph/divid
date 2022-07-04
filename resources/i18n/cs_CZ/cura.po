@@ -5025,8 +5025,8 @@ msgstr "Měli by se soubory z plochy, nebo externích aplikací otevírat ve ste
 
 #: /home/remco/dev/code/ulti/trans/Cura/resources/qml/Preferences/GeneralPage.qml:607
 msgctxt "@option:check"
-msgid "Use a single instance of Cura"
-msgstr "Používat pouze jednu instanci programu Cura"
+msgid "Use a single instance of Divid"
+msgstr "Používat pouze jednu instanci programu Divid"
 
 #: /home/remco/dev/code/ulti/trans/Cura/resources/qml/Preferences/GeneralPage.qml:618
 msgctxt "@info:tooltip"

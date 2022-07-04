@@ -4219,7 +4219,7 @@ msgstr ""
 
 #: /Users/j.delarago/development/cura_installation/Cura/resources/qml/Preferences/GeneralPage.qml:608
 msgctxt "@option:check"
-msgid "Use a single instance of Cura"
+msgid "Use a single instance of Divid"
 msgstr ""
 
 #: /Users/j.delarago/development/cura_installation/Cura/resources/qml/Preferences/GeneralPage.qml:619
